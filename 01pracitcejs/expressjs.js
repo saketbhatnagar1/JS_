@@ -6,11 +6,11 @@ const express = require("express")
 const app = express()
 
 app.get('/',(req,res)=>{
-    return res.send("HOME PAGE BI*H")
+    return res.send("HOME PAGE")
 })
 
 app.get('/about',(req,res)=>{
-    return res.send("U WNAT TO KNOW ABOUT US "+`${req.query.name}` +" BRO ?")
+    return res.send("ABOUT US "+`${req.query.name}`)
 })
 
 // app.post('/about',(req,res)=>{
