@@ -21,7 +21,7 @@ console.log(arr); // Output: [0, 1, 2, 3]
 
 let arr4 = [1, 2];
 let arr5 = [3, 4];
-let mergedArray = arr1.concat(arr2);
+let mergedArray = arr4.concat(arr5);
 console.log(mergedArray); // Output: [1, 2, 3, 4]
 
 
